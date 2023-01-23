@@ -8,9 +8,9 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
-const logger = require('./utils/logger');
-const routes = require('./routes');
-const banner = require('./utils/banner');
+const logger = require('../utils/logger');
+const routes = require('../routes');
+const banner = require('../utils/banner');
 
 const app = express();
 
